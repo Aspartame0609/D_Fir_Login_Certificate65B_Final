@@ -101,89 +101,9 @@ public class RegisterActivity extends AppCompatActivity {
         });
 
     }
-   /* private boolean validateName(){
-        String Name = txtName.getText().toString();
-        if(Name.isEmpty()){
-            txtName.setError("Field Can't be Empty");
-            return false;
-        }
-        else {
-            txtName.setError(null);
-            return true;
-        }
-    }
-    private boolean validateEmployeeId(){
-        String EmployeeId = txtEmployeeId.getText().toString();
+        
 
-        if(EmployeeId.isEmpty()){
-            txtEmployeeId.setError("Field Can't be Empty");
-            return false;
-        }
-        else if(EmployeeId.length() < 6) {
-            txtEmployeeId.setError("Enter Valid ID");
-            return false;
-        }
-        else{
-            txtEmployeeId.setError(null);
-            return true;
-        }
-    }
-    private boolean validatePhoneNumber(){
-        String PhoneNumber = txtPhoneNumber.getText().toString();
 
-        if(PhoneNumber.isEmpty()){
-            txtPhoneNumber.setError("Field Can't be Empty");
-            return false;
-        }
-        else if(PhoneNumber.length() < 10) {
-            txtPhoneNumber.setError("Enter Valid Phone Number");
-            return false;
-        }
-        else {
-            txtPhoneNumber.setError(null);
-            return true;
-        }
-    }
-    private boolean validatePassword(){
-        String Password = txtPassword.getText().toString();
 
-        if(Password.isEmpty()){
-            txtPassword.setError("Field Can't be Empty");
-            return false;
-        }
-        else if(!Password_Pattern.matcher(Password).matches()){
-            txtPassword.setError("Password is too week");
-            return false;
-        }
-        else {
-            txtPassword.setError(null);
-            return true;
-        }
-    }
-    private boolean validateConfirmPassword(){
-        String ConfirmPassword = txtConfirmPassword.getText().toString();
-        String Password = txtPassword.getText().toString();
-
-        if(ConfirmPassword.isEmpty()){
-            txtConfirmPassword.setError("Field Can't be Empty");
-            return false;
-        }
-        else if(ConfirmPassword.equals(Password)){
-            txtConfirmPassword.setError(null);
-            return  true;
-        }
-        else {
-            txtConfirmPassword.setError(null);
-            return false;
-        }
-    }
-
-    public boolean EnableSignUp(){
-        if(!validateName() | !validateEmployeeId()  | !validatePhoneNumber() | !validatePassword() | !validateConfirmPassword()){
-            btnSignUp.setEnabled(true);
-            return true;
-        }
-        return false;
-    }*/
 
 }
